@@ -23,7 +23,7 @@ The repository includes scripts for computing the Perturbational Complexity Inde
         Computes MSE using a 2-second sliding window (−5s to +10s around burst onset, step size = 0.5s).
 ----------------------------------------------------------------------------------------------------------------------------
 
-Usage & Execution Notes
+Usage & Execution Notes:
 
 - Input Data Format: Scripts expect preprocessed MNE continuous EEG files (.fif) and burst onset/offset markers in Excel format (.xlsx).
 - File Structure: Update the input/output directory paths at the top of each script ('input_folder_excel', 'input_folder_fif', 'output_folder') to match your local dataset layout.
