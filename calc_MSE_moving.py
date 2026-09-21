@@ -8,9 +8,9 @@ import mne
 import neurokit2 as nk
 from joblib import Parallel, delayed
 
-input_folder_excel = r"D:\Study_2\markers_burst_updated"
-input_folder_fif = r"D:\Study_2\clean_fif"
-output_folder = r"D:\Study_2\MSE_burst_moving"
+input_folder_excel = r"D:\markers_burst_isolated"
+input_folder_fif = r"D:\clean_fif"
+output_folder = r"D:\MSE_burst_moving"
 os.makedirs(output_folder, exist_ok=True)
 
 scale = 20             
