@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import os
 import re
 
-input_folder_excel = r"D:\markers_burst_isolated_"
+input_folder_excel = r"D:\markers_burst_isolated"
 input_folder_fif = r"D:\clean_fif"
 output_base_folder = r"D:\results_movingwindow"
 
